@@ -1,0 +1,88 @@
+/* sacar paddin, margin y dar formato border-box para que no se incluya paddin en ancho y alto */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* modificar este div para que las imagenes del carrousel queden centradas */
+.carrousel__container {
+    display: flex;
+    justify-content: center;
+}
+
+/* contenedor del div de las fotos y de los botones */
+.carrousel {
+    width: 95%;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    margin: 2em 0;
+}
+
+/* div que va a contener las fotos va a ser mas grande que su contenedor para que vayan pasando las imagenes */
+.carrousel .img__container {
+    width: 100%;
+    max-height: 31em;
+    display: flex;
+    flex-flow:wrap;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 2em 2em 0 2em;
+    transition: all 1s ease;
+    transform: translateX(0%);
+    
+}
+
+/* el ancho de las imagenes va a ser el total de grande divido 3 para que cada una ocupe el total de ancho al pasar por la pantalla */
+.img {
+    width: 100%;
+    min-height: 29em; 
+    max-height: 29em;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* se organiza el div de los puntos para que queden en el bottom del carrousel */
+.carrousel .puntos {
+    width: 100%;
+    margin: 0 0;
+    padding: .4em;
+    position: absolute;
+    bottom: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formato de cada uno de los botones que aparecen debajo del carrousel */
+.carrousel .punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    border-radius: 50%;
+}
+
+/* se le asigna el color que va a tener el boton cuando este activo */
+.carrousel .punto.activo {
+    background-color: lightblue;
+}
+
+@media (max-width: 992px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 8px;
+    }
+}

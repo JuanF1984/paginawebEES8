@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    margin-top: 3em;
+    height: 5vh;
+    background-color: rgb(16, 144, 241);
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+nav ul{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+nav ul a{
+    text-transform: none;
+    font-size: 1.5em;
+    padding: .5em;
+    color: white;
+}
