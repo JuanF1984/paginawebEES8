@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +11,9 @@
 header {
     width: 100%;
     position: relative;
-    margin-top: 3em;
-    height: 5vh;
-    background-color: rgb(16, 144, 241);
+    /* margin-top: 3em; */
+    height: 3.5em;
+    background-color: rgb(197, 68, 48);
 }
 
 nav{
@@ -30,16 +30,63 @@ nav ul{
     align-items: center;
     height: 100%;
     list-style: none;
+    justify-content: center;
 }
 
 nav ul a{
     text-transform: none;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: .5em;
     color: white;
     transition: all 300ms ease 300ms;
+    font-family: Ramabhadra;
 }
 
 nav ul li:hover{
     transform: scale(1.2);
+}
+
+.mision{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    border: 3px solid black ;
+    height: 50em;
+    max-width: 1200px;
+    width: 60em;
+    
+    
+}
+.mision img{
+    width: 20em;
+    border-radius: 1em;
+    /* border: 3px solid black ; */
+    max-width: 1200px;
+    align-self: flex-start;
+    display: block;
+}
+
+.misiontxt{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.miscontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+.right{
+    text-align: right;
+
+}
+.misiontxt p{
+    /* width: 35em; */
+    margin-right: 3em;
+}
+.mistxtright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 3em;
+    margin-right: 0;
 }
