@@ -90,11 +90,11 @@ nav ul li:hover{
     /* margin-right: 3em     ; */
 
 }
-.misiontxt p{
+/* .misiontxt p{ */
     /* width: 35em; */
     /* margin-right: 3em; */
     
-}
+/* } */
 .mistxtright{
     display: flex;
     justify-content: flex-end;
@@ -130,7 +130,7 @@ nav ul li:hover{
     /* display: flex; */
     width: 70%;
     /* padding: 1em; */
-    background-color: rgb(96, 116, 188);
+    background-color: rgb(120, 138, 218);
     /* background-color: rgb(204, 60, 38); */
     padding: 1.5em;
     border-radius: 1.2em;
@@ -142,4 +142,28 @@ footer{
     /* border: solid black 3px; */
     background-color: rgb(204, 60, 38);
     /* background-color: rgb(96, 116, 188); */
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SocialIcons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.SocialIcons img{
+    width: 3em;
+    
+}
+.SocialIcons li{
+    list-style: none;
+    vertical-align: bottom;
+    margin-right:1em ;
+    margin-left:1em ;
+}
+.SocialIcons li:hover{
+    transform: scale(1.2);
 }
