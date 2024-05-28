@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,19 +13,19 @@ header {
     width: 100%;
     position: relative;
     /* margin-top: 3em; */
-    height: 3.5em;
+    height: 4.5em;
     background-color: rgb(204, 60, 38);
     /* background-color: rgb(96, 116, 188); */
 }
 
-nav{
+nav {
     width: 100%;
     margin: auto;
     height: 100%;
-    
+
 }
 
-nav ul{
+nav ul {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -34,23 +35,23 @@ nav ul{
     justify-content: center;
 }
 
-nav ul a{
+nav ul a {
     text-transform: none;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: .5em;
     color: white;
     transition: all 300ms ease 300ms;
     font-family: Ramabhadra;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     transform: scale(1.2);
 }
 
 /* ////////////////////////MISION//////////////////////////// */
 
 
-.mision{
+.mision {
     display: flex;
     flex-direction: column;
     /* align-items: start; */
@@ -59,10 +60,13 @@ nav ul li:hover{
     max-width: 1200px;
     width: 60em;
     padding: 1.9em;
-    
+
 }
-.mision img{
-    width: 20em;
+
+.mision img {
+    width: 15em;
+    height: 20em;
+    object-fit: cover;
     border-radius: 1em;
     /* border: 3px solid black ; */
     max-width: 1200px;
@@ -70,32 +74,35 @@ nav ul li:hover{
     display: block;
 }
 
-.misiontxt{
+.misiontxt {
     display: flex;
     /* justify-content: space-evenly; */
     /* margin-right: 3em; */
     margin-bottom: 3em;
     /* flex-direction */
 }
-.miscontainer{
+
+.miscontainer {
     max-width: 1200px;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     margin-left: 1em;
     margin-right: 1em;
-    
+
 }
-.right{
+
+.right {
     text-align: right;
     /* margin-right: 3em     ; */
 
 }
+
 /* .misiontxt p{ */
-    /* width: 35em; */
-    /* margin-right: 3em; */
-    
+/* width: 35em; */
+/* margin-right: 3em; */
+
 /* } */
-.mistxtright{
+.mistxtright {
     display: flex;
     justify-content: flex-end;
     /* align-items: flex-end; */
@@ -104,28 +111,31 @@ nav ul li:hover{
     margin-bottom: 3em;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container p{
+.container p {
     padding: 1em;
 }
+
 /* //////////////////////////H1 HIST///////////////////////////////// */
-.miscontainer h1{
- text-align: left;
- font-size: 2.5em;
- margin-bottom: 1em;
+.miscontainer h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 1em;
 }
 
 .misiontitle {
     text-align: end;
 }
-.mision h2{
+
+.mision h2 {
     font-size: 2em;
 }
+
 .misHis {
     /* display: flex; */
     width: 70%;
@@ -134,36 +144,118 @@ nav ul li:hover{
     /* background-color: rgb(204, 60, 38); */
     padding: 1.5em;
     border-radius: 1.2em;
+    max-width: 1200px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.misHisMore {
+    width: 70%;
+    height: 90%;
+    background-color: rgb(120, 138, 218);
+    padding: 2em;
+    border-radius: 1.2em;
+    position: absolute;
+    max-width: 1200px;
+    display: none;
+}
+
+.blackBackground {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.misHis button {
+    margin: 1em;
+    margin-top: 0;
+    padding: 0.5em;
+    background-color: #F2622E;
+    box-shadow: -0.5em 0.5em 0.5em  rgba(0, 0, 0, 0.437);
+    /* font-size: ; */
+    position: absolute;
+    /* top: 0; */
+    width: 20%;
+    border-radius: 20px;
+    font-size: 1em;
+    bottom: 0.1em;
+    right: 0.5em;
+    border: 0;
+}
+
+/* ////////////////////////////UX/////////////// */
+.ux {
+    max-width: 1200px;
+    width: 100%;
+        /* border: solid black 3px; */
+    /* background-color: rgb(204, 60, 38); */
+
+    /* background-color: rgb(96, 116, 188); */
+    /* margin-top: 5em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.uxContainer {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.ux ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.ux li{
+    list-style: none;
+    margin: 4em;
+    /* background-color: rgb(204, 60, 38); */
+    box-shadow: -1em 1em 0.5em  rgba(0, 0, 0, 0.437);
+    border-radius: 1em;
+}
+.ux img{
+    width: 10em;
+    border-radius: 50%;
+    /* background-color: ; */
 }
 /* ///////////////////////////////FOOTER////////////////////// */
 
-footer{
+footer {
     height: 6em;
     /* border: solid black 3px; */
     background-color: rgb(204, 60, 38);
     /* background-color: rgb(96, 116, 188); */
-    margin-top: 5em;
+   
+    margin-top: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.SocialIcons ul{
+
+.SocialIcons ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+
 }
 
-.SocialIcons img{
-    width: 3em;
-    
+.SocialIcons img {
+    width: 2.5em;
+
 }
-.SocialIcons li{
+
+.SocialIcons li {
     list-style: none;
     vertical-align: bottom;
-    margin-right:1em ;
-    margin-left:1em ;
+    margin-right: 1em;
+    margin-left: 1em;
 }
-.SocialIcons li:hover{
+
+.SocialIcons li:hover {
     transform: scale(1.2);
 }
