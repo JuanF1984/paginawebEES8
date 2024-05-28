@@ -1,4 +1,3 @@
-const grande = document.querySelector('.grande')
 const punto = document.querySelectorAll('.punto')
 let imagenes = {
     0:{ 
