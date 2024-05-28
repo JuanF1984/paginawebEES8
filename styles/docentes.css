@@ -1,25 +1,27 @@
+/* ---Galería--- */
+
 /* Organizar las fotos de forma horizontal */
-.photos{
+.photos {
     display: flex;
     justify-content: center;
     margin-top: 2em;
 }
 
-.photoIndividual{
+.photoIndividual {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-.photoIndividual img{
+.photoIndividual img {
     height: 16em;
     border-radius: 50%;
     padding: 1em 3em;
     transition: all 300ms ease 300ms;
 }
 
-.photoIndividual p{
+.photoIndividual p {
     width: 15em;
     height: 5em;
     text-align: center;
@@ -33,10 +35,45 @@
     transition: all 300ms ease;
 }
 
-.photoIndividual img:hover{
+.photoIndividual img:hover {
     transform: scale(1.2);
 }
 
-.photoIndividual img:hover + p{
+.photoIndividual img:hover+p {
     visibility: visible;
+}
+
+
+/* ---Perfil--- */
+.perfil {
+    display: flex;
+    justify-content: center;
+
+}
+
+.perfilArt {
+    max-width: 1200px;
+    border: 1px solid black;
+    font-size: 2em;
+    position: relative;
+}
+
+.perfilArt p {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.perfilTextHidden {
+    display: none;
+    margin-bottom: 1em;
+}
+
+.perfilTextVisible {
+    display: block;
+}
+
+#perfilMasMenos {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    font-size: 1em;
 }
