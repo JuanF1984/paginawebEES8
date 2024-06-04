@@ -37,8 +37,8 @@
 /* el ancho de las imagenes va a ser el total de grande divido 3 para que cada una ocupe el total de ancho al pasar por la pantalla */
 .img {
     width: 100%;
-    min-height: 29em; 
-    max-height: 29em;
+    min-height: 33em; 
+    max-height: 33em;
     border-radius: 15px;
     object-fit: cover;
 }
