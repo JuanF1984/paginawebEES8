@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hisContainer{
+    position: relative;
+    margin-top: 5em;
+    
+}
+.his {
+    
+    width: 65%;
+    background-color: rgb(120, 138, 218);
+    padding: 1.5em;
+    border-radius: 1.2em;
+    max-width: 1200px;
+    position: relative;
+    font-size: 1em;
+    /* height: 60em; */
+    margin: 3em;
+    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
+    max-width: 1200px;
+}
+.his p{
+    padding: 2em;
+}
+.hisImg{
+    /* position: relative;
+    border: 3px solid black;
+    height: 25em; */
+
+    
+}
+.hisImg img {
+    height: 30em;
+    /* margin: 4em; */
+    border-radius: 20px;
+    position: absolute;
+    top: -2EM;
+    right: 3.5EM;
+    z-index: 1;
+    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
+}
