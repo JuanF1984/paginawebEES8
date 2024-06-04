@@ -15,9 +15,11 @@
 }
 
 .photoIndividual img {
-    height: 16em;
+    height: 15em;
+    width: 15em;
+    object-fit: cover;
     border-radius: 50%;
-    padding: 1em 3em;
+    padding: 1em 1em;
     transition: all 300ms ease 300ms;
 }
 
@@ -43,6 +45,9 @@
     visibility: visible;
 }
 
+.photoIndividual img:active+p{
+    visibility: visible;
+}
 
 /* ---Perfil--- */
 .perfil {
@@ -54,7 +59,7 @@
 .perfilArt {
     max-width: 1200px;
     border: 1px solid black;
-    font-size: 2em;
+    font-size: 1.5em;
     position: relative;
 }
 
@@ -64,7 +69,7 @@
 
 .perfilTextHidden {
     display: none;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .perfilTextVisible {
