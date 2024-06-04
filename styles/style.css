@@ -11,41 +11,37 @@
 
 header {
     width: 100%;
-    position: relative;
-    /* margin-top: 3em; */
-    height: 4.5em;
-    background-color: rgb(204, 60, 38);
-    /* background-color: rgb(96, 116, 188); */
+}
+
+.headerSuperior {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoContainer {
+    max-width: 1200px;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.logoContainer img{
+    width: 8em;
+    padding: 1em;
 }
 
 nav {
+    position: relative;
     width: 100%;
+    height: 4em;
     margin: auto;
-    height: 100%;
+    background-color: rgb(204, 60, 38);
 }
 
-nav ul {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    list-style: none;
-    justify-content: center;
-}
-
-nav ul a {
-    text-transform: none;
-    font-size: 1.2em;
-    padding: .5em;
-    color: white;
-    transition: all 300ms ease 300ms;
-    font-family: Ramabhadra;
-}
-
-nav ul li:hover {
-    transform: scale(1.2);
-}
 
 /* ////////////////////////MISION//////////////////////////// */
 
@@ -55,7 +51,7 @@ nav ul li:hover {
     flex-direction: column;
     /* align-items: start; */
     /* border: 3px solid black ; */
-    height: 60em;
+    
     max-width: 1200px;
     width: 60em;
     padding: 1.9em;
@@ -63,8 +59,8 @@ nav ul li:hover {
 }
 
 .mision img {
-    width: 15em;
-    height: 20em;
+    width: 12em;
+    height: 17em;
     object-fit: cover;
     border-radius: 1em;
     /* border: 3px solid black ; */
@@ -84,7 +80,8 @@ nav ul li:hover {
 .miscontainer {
     max-width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
     margin-left: 1em;
     margin-right: 1em;
 
@@ -146,6 +143,20 @@ nav ul li:hover {
     max-width: 1200px;
     position: relative;
     font-size: 1.2em;
+    height: 60em;
+}
+
+.misHisImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.misHisImg img{
+    width: 60%;
+    margin: 2em 1em 1em 1em;
+    /* padding: 3em; */
+    border-radius: 1.2em;
 }
 
 .misHisMore {
@@ -172,14 +183,14 @@ nav ul li:hover {
     margin-top: 0;
     padding: 0.5em;
     background-color: #F2622E;
-    box-shadow: -0.5em 0.5em 0.5em  rgba(0, 0, 0, 0.437);
+    box-shadow: -0.5em 0.5em 0.5em rgba(0, 0, 0, 0.437);
     /* font-size: ; */
     position: absolute;
     /* top: 0; */
     width: 20%;
     border-radius: 20px;
     font-size: 1em;
-    bottom: 0.1em;
+    bottom: 18em;
     right: 0.5em;
     border: 0;
 }
@@ -188,7 +199,7 @@ nav ul li:hover {
 .ux {
     max-width: 1200px;
     width: 100%;
-        /* border: solid black 3px; */
+    /* border: solid black 3px; */
     /* background-color: rgb(204, 60, 38); */
 
     /* background-color: rgb(96, 116, 188); */
@@ -196,32 +207,36 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .uxContainer {
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
 }
 
-.ux ul{
+.ux ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
-.ux li{
+
+.ux li {
     list-style: none;
     margin: 4em;
     /* background-color: rgb(204, 60, 38); */
-    box-shadow: -1em 1em 0.5em  rgba(0, 0, 0, 0.437);
+    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
     border-radius: 1em;
 }
-.ux img{
+
+.ux img {
     width: 10em;
     border-radius: 50%;
     /* background-color: ; */
 }
+
 /* ///////////////////////////////FOOTER////////////////////// */
 
 footer {
@@ -229,7 +244,7 @@ footer {
     /* border: solid black 3px; */
     background-color: rgb(204, 60, 38);
     /* background-color: rgb(96, 116, 188); */
-   
+
     margin-top: 3em;
     display: flex;
     justify-content: center;
