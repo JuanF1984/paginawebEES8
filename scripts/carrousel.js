@@ -21,7 +21,7 @@ let intervalo = null;
 const start = (position) => {
     intervalo = setInterval(function () {
         insertarImagen(position)
-        // position >= 2 ? (position = 0) : (position++)
+        position >= 2 ? (position = 0) : (position++)
     }, 3500)
 }
 
