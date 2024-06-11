@@ -241,12 +241,12 @@ nav {
 /* ///////////////////////////////FOOTER////////////////////// */
 
 footer {
-    height: 6em;
+    height: 5em;
     /* border: solid black 3px; */
     background-color: rgb(204, 60, 38);
     /* background-color: rgb(96, 116, 188); */
 
-    margin-top: 3em;
+    margin-top: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
