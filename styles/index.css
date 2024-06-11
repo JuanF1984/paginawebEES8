@@ -22,6 +22,7 @@
     max-width: 1200px;
     align-self: flex-start;
     display: block;
+    border-radius: 2em;
 }
 
 .misiontxt {
@@ -69,6 +70,14 @@
 }
 
 .container p {
+    padding: 1em;
+}
+
+.container h2{
+    padding: 0 1em;
+}
+
+.container img{
     padding: 1em;
 }
 
@@ -181,13 +190,24 @@
 .ux li {
     list-style: none;
     margin: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* background-color: rgb(204, 60, 38); */
-    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
-    border-radius: 1em;
+    /* box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437); */
+    /* border-radius: 1em; */
 }
 
 .ux img {
     width: 10em;
+    height: 10em;
     border-radius: 50%;
-    /* background-color: ; */
+    object-fit: cover;
+}
+
+.ux p{
+    text-align: center;
+    padding: 1em;
+    border-radius: 10% 1em;
+    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
 }

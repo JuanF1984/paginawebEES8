@@ -58,25 +58,25 @@ footer {
     align-items: center;
 }
 
-.SocialIcons ul {
+.socialIcons ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-.SocialIcons img {
-    width: 2.5em;
-
+.socialIcons img {
+   width: 5em;
+   padding: 1em;
 }
 
-.SocialIcons li {
+.socialIcons li {
     list-style: none;
     vertical-align: bottom;
     margin-right: 1em;
     margin-left: 1em;
 }
 
-.SocialIcons li:hover {
+.socialIcons li:hover {
     transform: scale(1.2);
 }
