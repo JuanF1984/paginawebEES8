@@ -33,6 +33,7 @@
     /* flex-direction */
 }
 
+
 .miscontainer {
     max-width: 1200px;
     display: flex;
@@ -81,6 +82,10 @@
     padding: 1em;
 }
 
+.objLi {
+    display: block;
+    padding: 1em;
+}
 /* //////////////////////////H1 HIST///////////////////////////////// */
 .miscontainer h1 {
     text-align: left;
@@ -107,7 +112,7 @@
     max-width: 1200px;
     position: relative;
     font-size: 1.2em;
-    height: 60em;
+    /* height: 60em; */
 }
 
 .misHisImg{
@@ -117,10 +122,11 @@
 }
 
 .misHisImg img{
-    width: 60%;
-    margin: 2em 1em 1em 1em;
-    /* padding: 3em; */
-    border-radius: 1.2em;
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    
+    border-radius: 2em;
 }
 
 .misHisMore {
@@ -190,6 +196,7 @@
 .ux li {
     list-style: none;
     margin: 4em;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,10 +206,12 @@
 }
 
 .ux img {
-    width: 10em;
-    height: 10em;
+    width: 14em;
+    height: 14em;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 1em;
+   
 }
 
 .ux p{
@@ -210,4 +219,6 @@
     padding: 1em;
     border-radius: 10% 1em;
     box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
+    background-color:#9cc969;;
+    font-size: 1.2em;
 }
