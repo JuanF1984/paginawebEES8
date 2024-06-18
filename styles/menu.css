@@ -12,46 +12,43 @@
     width: 100%;
     /* margin-top: 1em; */
 }
+
 .menuPrincipal {
-    /* border: 1px solid black; */
+    max-width: 1200px;
+    margin: auto;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     list-style: none;
     z-index: 11;
 }
 
-.menuPrincipal>li a{
+.menuPrincipal>li {
+    margin: 0 1em;
+    position: relative;
+}
+
+.menuPrincipal>li a {
     text-decoration: none;
     font-size: 1.2em;
     padding: .5em;
     color: white;
-    transition: all 300ms ease;
     font-family: Ramabhadra;
 }
-.menuPrincipal{
-    list-style: none;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: center;
+
+.menuPrincipal>li>a {
+    transition: all 300ms ease;
 }
-.menuPrincipal img{
+
+.menuPrincipal img {
     width: 3em;
     height: 3em;
     margin: .3em;
 }
-.menuPrincipal>li {
-    /* height: 100%; */
-    
-    margin: 0 1em;
-    position: relative;
-}
+
 
 .submenu {
     width: 13em;
@@ -70,7 +67,7 @@
     transition: all 300ms ease;
 }
 
-.submenu::after{
+.submenu::after {
     content: '';
     width: 0;
     height: 0;
@@ -80,14 +77,12 @@
     position: absolute;
     top: -11px;
     left: 20px;
-    transition: all 300ms ease;
 }
 
 .submenu li a {
     color: black;
-    transition: all 300ms ease;
-}
-.menuPrincipal li:hover ul{
-    visibility: visible;
 }
 
+.menuPrincipal li:hover ul {
+    visibility: visible;
+}

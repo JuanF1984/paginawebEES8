@@ -44,199 +44,6 @@ nav {
 }
 
 
-/* ////////////////////////MISION//////////////////////////// */
-
-
-.mision {
-    display: flex;
-    flex-direction: column;
-    /* align-items: start; */
-    /* border: 3px solid black ; */
-    
-    max-width: 1200px;
-    width: 60em;
-    padding: 1.9em;
-
-}
-
-.mision img {
-    width: 12em;
-    height: 17em;
-    object-fit: cover;
-    border-radius: 1em;
-    /* border: 3px solid black ; */
-    max-width: 1200px;
-    align-self: flex-start;
-    display: block;
-}
-
-.misiontxt {
-    display: flex;
-    /* justify-content: space-evenly; */
-    /* margin-right: 3em; */
-    margin-bottom: 3em;
-    /* flex-direction */
-}
-
-.miscontainer {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-left: 1em;
-    margin-right: 1em;
-
-}
-
-.right {
-    text-align: right;
-    /* margin-right: 3em     ; */
-
-}
-
-/* .misiontxt p{ */
-/* width: 35em; */
-/* margin-right: 3em; */
-
-/* } */
-.mistxtright {
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: flex-end; */
-    /* margin-left: 3em; */
-    margin-right: 0;
-    margin-bottom: 3em;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.container p {
-    padding: 1em;
-}
-
-/* //////////////////////////H1 HIST///////////////////////////////// */
-.miscontainer h1 {
-    text-align: left;
-    font-size: 2.5em;
-    margin-bottom: 1em;
-}
-
-.misiontitle {
-    text-align: end;
-}
-
-.mision h2 {
-    font-size: 2em;
-}
-
-.misHis {
-    /* display: flex; */
-    width: 70%;
-    /* padding: 1em; */
-    background-color: rgb(120, 138, 218);
-    /* background-color: rgb(204, 60, 38); */
-    padding: 1.5em;
-    border-radius: 1.2em;
-    max-width: 1200px;
-    position: relative;
-    font-size: 1.2em;
-    height: 60em;
-}
-
-.misHisImg{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.misHisImg img{
-    width: 60%;
-    margin: 2em 1em 1em 1em;
-    /* padding: 3em; */
-    border-radius: 1.2em;
-}
-
-.misHisMore {
-    width: 70%;
-    height: 90%;
-    background-color: rgb(120, 138, 218);
-    padding: 2em;
-    border-radius: 1.2em;
-    position: absolute;
-    max-width: 1200px;
-    display: none;
-}
-
-.blackBackground {
-    background-color: rgba(0, 0, 0, 0.75);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: none;
-}
-
-.misHis button {
-    margin: 1em;
-    margin-top: 0;
-    padding: 0.5em;
-    background-color: #F2622E;
-    box-shadow: -0.5em 0.5em 0.5em rgba(0, 0, 0, 0.437);
-    /* font-size: ; */
-    position: absolute;
-    /* top: 0; */
-    width: 20%;
-    border-radius: 20px;
-    font-size: 1em;
-    bottom: 18em;
-    right: 0.5em;
-    border: 0;
-}
-
-/* ////////////////////////////UX/////////////// */
-.ux {
-    max-width: 1200px;
-    width: 100%;
-    /* border: solid black 3px; */
-    /* background-color: rgb(204, 60, 38); */
-
-    /* background-color: rgb(96, 116, 188); */
-    /* margin-top: 5em; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.uxContainer {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
-}
-
-.ux ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.ux li {
-    list-style: none;
-    margin: 4em;
-    /* background-color: rgb(204, 60, 38); */
-    box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
-    border-radius: 1em;
-}
-
-.ux img {
-    width: 10em;
-    border-radius: 50%;
-    /* background-color: ; */
-}
 
 /* ///////////////////////////////FOOTER////////////////////// */
 
@@ -252,25 +59,25 @@ footer {
     align-items: center;
 }
 
-.SocialIcons ul {
+.socialIcons ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-.SocialIcons img {
-    width: 2.5em;
-
+.socialIcons img {
+   width: 5em;
+   padding: 1em;
 }
 
-.SocialIcons li {
+.socialIcons li {
     list-style: none;
     vertical-align: bottom;
     margin-right: 1em;
     margin-left: 1em;
 }
 
-.SocialIcons li:hover {
+.socialIcons li:hover {
     transform: scale(1.2);
 }

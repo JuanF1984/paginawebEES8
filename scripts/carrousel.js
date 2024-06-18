@@ -16,7 +16,6 @@ let imagenes = {
     
 let intervalo = null;
 
-
 // FUNCIÓN QUE HACE QUE SE RECORRA EL CARROUSEL DE FORMA AUTOMATICA
 // Tiene un parametro que indica en la posición que debe iniciar
 const start = (position) => {
@@ -58,5 +57,5 @@ punto.forEach((cadaPunto, i) => {
 })
 
 // iniciamos la reproducción de imagenes en la segunda imagen porque inicialmente inicia en la primera 
-// se carga junto con la página la primer página antes de que inicie la reproducción automática
+// se carga junto c;on la página la primer página antes de que inicie la reproducción automática
 start(1)
