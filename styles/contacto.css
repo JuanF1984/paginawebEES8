@@ -1,4 +1,14 @@
+.container_contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta_contacto {
+    width: 25%;
+}
+
 #map {
     height: 600px;
-    width: 100%;
+    width: 65%;
 }
