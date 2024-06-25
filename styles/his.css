@@ -28,12 +28,10 @@ h2{
     
     width: 70%;
     background-color: rgb(120, 138, 218);
-    /* padding: 1.5em; */
     border-radius: 1.2em;
     max-width: 1200px;
     position: relative;
     font-size: 1em;
-    /* height: 60em; */
     margin: 1em;
     box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
     max-width: 1200px;
@@ -44,7 +42,6 @@ h2{
 .his p{
     padding: 2em;
     padding-bottom: 2em;
-    /* font-size: 1.2em; */
 }
 
 .hisImg img {
