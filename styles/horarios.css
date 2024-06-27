@@ -1,28 +1,43 @@
 table{
     table-layout: fixed;
     width: 100%;
-
-    /* border: 3px solid black; */
     border-collapse: collapse;
     margin-top: 1em ;
+    
 }
 caption{
     border: 3px solid black;
+    border-bottom: 0;
+    padding: 0,7em;
+    font-size: 2em;
+    background-color: #e67c55;
+    
 }
 th{
     border: 3px solid black;
+    padding: 1em;    
+    
 }
 td{
     border: 3px solid black;
+    padding: 0.7em;
+    text-align: center;
+    
 }
 .recreo {
-    background-color: rgb(160, 95, 75);
+    background-color: rgb(120, 138, 218);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.1em;
 }
 
 .container_horario {
     display: flex;
     justify-content: center;
+    
+    
 } 
 .container_table{
     max-width: 1200px;
+  
 }
