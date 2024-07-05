@@ -10,7 +10,7 @@ caption {
     border: 3px solid black;
     border-bottom: 0;
     padding: 0, 7em;
-    font-size: 2em;
+    font-size: 2.5em;
     background-color: #e67c55;
 
 }
@@ -18,21 +18,21 @@ caption {
 th {
     border: 3px solid black;
     padding: 1em;
-
+    font-size: 1.1em;
 }
 
 td {
     border: 3px solid black;
-    padding: 0.7em;
+    padding: 0.3em;
     text-align: center;
-
+    font-size: 1.5em;
 }
 
 .recreo {
     background-color: rgb(120, 138, 218);
     text-align: center;
     text-decoration: underline;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .container_horario {
@@ -47,6 +47,10 @@ td {
 
 }
 
+.column1 {
+    width: 12%;
+}
+
 @media (max-width: 576px) {
     body {
         font-size: 8px;
@@ -56,24 +60,27 @@ td {
         padding: 1em;
 
     }
-    caption{
+
+    caption {
         border: 1px solid black;
         border-bottom: 0;
-        padding: 0,7em;
+        padding: 0, 7em;
         font-size: 2em;
         background-color: #e67c55;
-        
+
     }
+
     th {
         border: 1px solid black;
         padding: 1em;
-    
+
     }
+
     td {
         border: 1px solid black;
         padding: 0.5em;
         text-align: center;
-    
+
     }
-    
+
 }
