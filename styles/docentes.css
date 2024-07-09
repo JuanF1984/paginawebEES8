@@ -1,10 +1,26 @@
 /* ---Galería--- */
 
 /* Organizar las fotos de forma horizontal */
+h2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
 .photos {
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     margin-top: 2em;
+    flex-wrap: wrap;
+    /* flex: 300px; */
 }
 
 .photoIndividual {
@@ -12,21 +28,25 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .photoIndividual img {
-    height: 16em;
+    height: 15em;
+    width: 15em;
+    object-fit: cover;
     border-radius: 50%;
-    padding: 1em 3em;
+    padding: 1em 1em;
     transition: all 300ms ease 300ms;
 }
 
 .photoIndividual p {
-    width: 15em;
-    height: 5em;
+    width: 16em;
+    height: 4em;
     text-align: center;
     background-color: rgba(128, 105, 22, 0.5);
-    padding: 1em;
+    padding: .5em;
     color: white;
     position: absolute;
     bottom: 0;
@@ -43,6 +63,9 @@
     visibility: visible;
 }
 
+.photoIndividual img:active+p{
+    visibility: visible;
+}
 
 /* ---Perfil--- */
 .perfil {
@@ -52,19 +75,22 @@
 }
 
 .perfilArt {
-    max-width: 1200px;
+    max-width:800px;
     border: 1px solid black;
-    font-size: 2em;
+    border-radius: 1em;
+    font-size: 1.2em;
     position: relative;
+    margin-top: 1em;
+    background-color: rgba(190, 210, 223, 0.5);
 }
 
 .perfilArt p {
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em 2em 1em;
 }
 
 .perfilTextHidden {
     display: none;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .perfilTextVisible {
@@ -74,6 +100,6 @@
 #perfilMasMenos {
     position: absolute;
     bottom: 0.5em;
-    right: 0.5em;
+    right: 1em;
     font-size: 1em;
 }

@@ -30,8 +30,9 @@ header {
 }
 
 .logoContainer img{
-    width: 8em;
-    padding: 1em;
+    /* width: 8em; */
+    padding: 0.5em;
+    height: 6em;
 }
 
 nav {
