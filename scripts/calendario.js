@@ -18,16 +18,31 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
             description: 'Declaración de la Independencia en 1816'
         },
         {
-            title: 'Evento 2',
-            start: '2024-07-07',
-            end: '2024-07-10',
-            description: 'Descripción del Evento 2'
+            title: 'Receso Invernal',
+            start: '2024-07-15',
+            end: '2024-07-26',
+            description: 'Período de receso de invierno - No hay clases'
         },
         {
-            title: 'Evento 3',
-            start: '2024-07-09T16:00:00',
-            description: 'Descripción del Evento 3'
-        }
+            title: 'Acto Escolar',
+            start: '2024-07-10T16:00:00',
+            description: 'Acto en conmemoración al día de la Independencia'
+        },
+        {
+            title: 'Día del Maestro',
+            start: '2024-09-11',
+            description: 'En conmemoración a Domingo Faustino Sarmiento'
+        },
+        {
+            title: 'Día del Estudiante Secundario',
+            start: '2024-09-16',
+            description: 'En conmemoración a la noche de los lápices'
+        },
+        {
+            title: 'Día de la Primavera',
+            start: '2024-09-21',
+            description: 'Cambio en la estación del año'
+        },
     ],
     eventDidMount: function (info) {
         tippy(info.el, {

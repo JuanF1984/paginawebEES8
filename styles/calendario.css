@@ -18,8 +18,13 @@ h2 {
     width: 6em;
 }
 .mesbtn {
-    border: none;
+    /* border: none; */
+    height: 3em;
+    width: 6em;
+    margin: 1em;
+    border-radius: 10px;
 }
+
 .meses {
     display: flex;
     width: 100%;
