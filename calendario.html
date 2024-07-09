@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/calendario.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerSuperior">
+            <div class="logoContainer">
+                <a href="index.html"><img src="assets/img/logo-escuela.svg" alt=""></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="menuPrincipal">
+
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li><a href="proyecto.html">Proyectos</a>
+                    <!-- <ul class="submenu">                            
+                            <li></li>
+                        </ul> -->
+                </li>
+                <li>
+                    <a href="horario.html">Horarios</a>
+                    <!-- <ul class="submenu">
+                            <li></li>
+                        </ul> -->
+                </li>
+                <li><a href="galeria.html">Galeria</a>
+                    <ul class="submenu">
+                        <li><a href="#">Equipo directivo</a></li>
+                        <li><a href="#">Perfil Docente</a></li>
+                        <li><a href="#">Perfil Estudiante</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                    <!-- <ul class="submenu">
+                            <li></li>
+                        </ul> -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <div class="botonera">
+            <h2>Elegi un mes</h2>
+            <ul class="meses">
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/feb.png"
+                            alt="icono febrero">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/mar.png"
+                            alt="icono marzo">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/abr.png"
+                            alt="icono abril">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/may.png"
+                            alt="icono mayo">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/jun.png"
+                            alt="icono junio">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/jul.png"
+                            alt="icono julio">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/ago.png"
+                            alt="icono agosto">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/sep.png"
+                            alt="icono septiembre">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/oct.png"
+                            alt="icono octubre">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/nov.png"
+                            alt="icono noviembre">
+                    </button>
+                </li>
+                <li>
+                    <button class="mesbtn">
+                        <img src="https://abc.gob.ar/modules/custom/calendario_escolar/assets/icons/dic.png"
+                            alt="icono diciembre">
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="calendario" id="calendario">
+            
+        </div>
+    </div>
+    <!-- FullCalendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+    <!-- Tippy.js JS -->
+    <script src='https://unpkg.com/@popperjs/core@2'></script>
+    <script src='https://unpkg.com/tippy.js@6'></script>
+    <!-- Script.js -->
+    <script src="scripts/calendario.js"></script>
+</body>
+
+</html>

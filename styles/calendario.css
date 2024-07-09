@@ -1,0 +1,42 @@
+.botonera {
+    margin-top: 20px;
+    width: 30%;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(140, 95, 182);
+    margin: 50px 0 50px 20px;
+    display: inline;
+    padding: 0.5em;
+    border-radius: 10px;
+   
+}  
+.mesbtn img {
+    background-color: white;
+    border: none;
+    width: 6em;
+}
+.mesbtn {
+    border: none;
+}
+.meses {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin: 50px 0 50px 20px;
+    flex-wrap: wrap;
+    
+}
+.meses li {
+    list-style: none;
+}
+.contenedor {
+    display: flex;
+}
+.calendario {
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
