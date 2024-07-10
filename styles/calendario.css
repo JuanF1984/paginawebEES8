@@ -18,11 +18,10 @@ h2 {
     width: 6em;
 }
 .mesbtn {
-    /* border: none; */
-    height: 3em;
-    width: 6em;
+    border: none;
     margin: 1em;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .meses {

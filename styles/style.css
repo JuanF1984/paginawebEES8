@@ -1,6 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 
+/* Estilos de espera mientras carga la página */
+#bodyContainer {
+    display: none;
+}
+
+#loaderContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(209, 205, 205, 0.306);
+}
+
+#loader {
+    border: 16px solid #bfdfd3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+}
+.loaderText{
+    font-size: 2em;
+    position: absolute;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +42,7 @@
     font-family: "Lora", serif;
     text-decoration: none;
 }
+
 
 header {
     width: 100%;
@@ -29,7 +64,7 @@ header {
     align-items: flex-start;
 }
 
-.logoContainer img{
+.logoContainer img {
     /* width: 8em; */
     padding: 0.5em;
     height: 6em;
@@ -64,8 +99,8 @@ footer {
 }
 
 .socialIcons img {
-   width: 5em;
-   padding: 1em;
+    width: 5em;
+    padding: 1em;
 }
 
 .socialIcons li {
@@ -78,7 +113,8 @@ footer {
 .socialIcons li:hover {
     transform: scale(1.2);
 }
-@media (max-width: 576px){
+
+@media (max-width: 576px) {
     footer {
         height: 3.5em;
         background-color: rgb(204, 60, 38);
@@ -87,8 +123,9 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .socialIcons img {
         width: 3em;
         padding: 0.5em;
-     }
+    }
 }
