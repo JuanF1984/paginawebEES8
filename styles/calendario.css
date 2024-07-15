@@ -12,11 +12,13 @@ h2 {
     border-radius: 10px;
    
 }  
+
 .mesbtn img {
     background-color: white;
     border: none;
     width: 6em;
 }
+
 .mesbtn {
     border: none;
     margin: 1em;
@@ -32,15 +34,52 @@ h2 {
     flex-wrap: wrap;
     
 }
+
 .meses li {
     list-style: none;
 }
-.contenedor {
+
+.contenedorCalendario {
     display: flex;
+    justify-content: center;
+     max-width: 1200px;
 }
+
 .calendario {
-    width: 60%;
+    width: 50%;
     margin-left: 20px;
     margin-top: 30px;
     margin-right: 20px;
+}
+
+.meses .mesbtn.activo img{
+    background-color: rgb(10, 173, 248);
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#fc-dom-1{
+    background-color: initial;
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (max-width: 576px){
+    .contenedorCalendario{
+        flex-direction: column;
+    }
+    .botonera{
+        width: 100%;
+    }
+    .calendario{
+        width: 100%;
+    }
+    #fc-dom-1{
+        font-size: 25px;
+    }
 }

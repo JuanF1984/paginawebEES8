@@ -11,44 +11,71 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
         center: 'title',
         right: 'dayGridMonth,timeGridWeek,timeGridDay'
     },
+    buttonText:{
+        today: 'Hoy',
+        month: 'Mes',
+        week: 'Semana',
+        day: 'Dia'
+    },
     events: [
         {
-            title: 'Día de la Independencia',
+            title: 'Feriado',
             start: '2024-07-09',
             description: 'Declaración de la Independencia en 1816'
         },
         {
-            title: 'Receso Invernal',
-            start: '2024-07-15',
-            end: '2024-07-26',
-            description: 'Período de receso de invierno - No hay clases'
+            title: 'Feriado',
+            start: '2024-08-17',
+            description: 'Paso a la inmortalidad del Gral. Jose de San Martin'
         },
         {
-            title: 'Acto Escolar',
-            start: '2024-07-10T16:00:00',
-            description: 'Acto en conmemoración al día de la Independencia'
+            title: 'Feriado puente',
+            start: '2024-10-11',
+            description: 'Feriado con fines turisticos'
         },
         {
-            title: 'Día del Maestro',
-            start: '2024-09-11',
-            description: 'En conmemoración a Domingo Faustino Sarmiento'
+            title: 'Fecha Patria',
+            start: '2024-10-12',
+            description: 'Dia del respeto a la Diversidad Cultural'
         },
         {
-            title: 'Día del Estudiante Secundario',
-            start: '2024-09-16',
-            description: 'En conmemoración a la noche de los lápices'
+            title: 'Feriado puente',
+            start: '2024-11-18',
+            description: 'Feriado con fines turisticos'
         },
         {
-            title: 'Día de la Primavera',
-            start: '2024-09-21',
-            description: 'Cambio en la estación del año'
+            title: 'Fecha Patria',
+            start: '2024-11-20',
+            description: 'Dia de la Soberania Nacional'
         },
+        {
+            title: 'Fecha Patria',
+            start: '2024-12-8',
+            description: 'Dia de la Virgen'
+        },
+        {
+            title: 'Finalizacion de clases',
+            start: '2024-12-20',
+            description: 'Finalizacion de clases'
+        },
+        {
+            title: 'Navidad',
+            start: '2024-12-25',
+            description: 'Conmemoracion del nacimiento del niño Jesus'
+        },
+        {
+            title: 'Fin del ciclo lectivo',
+            start: '2024-12-30',
+            description: 'Fin del ciclo lectivo'
+        }
+    
     ],
     eventDidMount: function (info) {
         tippy(info.el, {
             content: info.event.extendedProps.description,
             placement: 'top',
-            theme: 'light'
+            theme: 'light',
+            trigger: 'mouseenter click'
         });
     }
 });
@@ -65,5 +92,13 @@ botonMes.forEach((cadaBoton, i) => {
         let year = new Date().getFullYear();
         let date = new Date(year, month, 1);
         calendar.gotoDate(date);
+        activarBoton(i);
     })
 })
+
+const activarBoton = (position) => {
+    botonMes.forEach((cadaBoton) =>{
+        cadaBoton.classList.remove ('activo')
+    })
+    botonMes[position].classList.add ('activo')
+}
