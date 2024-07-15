@@ -83,11 +83,13 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    activarBoton(new Date().getMonth()-1)
     calendar.render();
+
 });
 
 botonMes.forEach((cadaBoton, i) => {
-    botonMes[i].addEventListener('click', () => {
+    cadaBoton.addEventListener('click', () => {
         let month = String(i+1);
         let year = new Date().getFullYear();
         let date = new Date(year, month, 1);
