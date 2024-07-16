@@ -182,6 +182,31 @@
     padding: 1em;
     border-radius: 10% 1em;
     box-shadow: -1em 1em 0.5em rgba(0, 0, 0, 0.437);
-    background-color:#9cc969;;
+    background-color:#9cc969;
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 576px) {
+    /* .misiontxt{
+        flex-direction: column;
+    } */
+    body{
+        font-size: 8px;
+    }
+    .miscontainer{
+        flex-direction: column;
+    }
+
+    .mision{
+        order:-1;
+    }
+    .ux ul{
+        display: block;
+    }
+    .ux ul li{
+        flex-direction: row;
+    }
+    p{
+        font-size: 1.3em;
+    }
 }
