@@ -86,3 +86,8 @@
 .menuPrincipal li:hover ul {
     visibility: visible;
 }
+
+.menuSecundario {
+    visibility: hidden;
+}
+
