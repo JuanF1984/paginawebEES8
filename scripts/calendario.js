@@ -4,7 +4,7 @@ const calendarEl = document.getElementById('calendario');
 const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
     locale: 'es',
-    themeSystem: 'bootstrap5',
+    // themeSystem: 'bootstrap5',
     initialDate: new Date(),
     headerToolbar: {
         left: 'prev,next today',
@@ -83,6 +83,7 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    activarBoton (new Date().getMonth()-1);
     calendar.render();
 });
 
