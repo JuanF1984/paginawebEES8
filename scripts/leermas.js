@@ -1,12 +1,12 @@
-const perfilMasMenos = document.getElementById('perfilMasMenos')
-const perfilTextHidden = document.querySelector('.perfilTextHidden');
+const perfilMasMenos = document.getElementById('texto')
+const perfilTextHidden = document.querySelector('.textoescondido');
 
 perfilMasMenos.addEventListener('click', () => {
     if (perfilMasMenos.textContent === 'Leer Más') {
-        perfilTextHidden.classList.add('perfilTextVisible')
+        perfilTextHidden.classList.add('textVisible')
         perfilMasMenos.textContent = 'Leer Menos'
     }else{
-        perfilTextHidden.classList.remove('perfilTextVisible')
+        perfilTextHidden.classList.remove('textVisible')
         perfilMasMenos.textContent = 'Leer Más'
     }
 })

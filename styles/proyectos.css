@@ -4,3 +4,24 @@ width: 330px
 
 
 }
+.textoescondido {
+    flex: auto;
+display: none;
+
+}
+.textVisible {
+display: block;
+
+
+}
+
+.textovisible{
+width: 600px;
+
+}
+
+.textoyvideo {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
