@@ -25,3 +25,13 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 }
+
+@media screen and (max-width: 576px){
+    .textoyvideo{
+        display: block;
+    }
+    .textovisible{
+        width: 100%;
+    }
+    
+}
