@@ -23,7 +23,7 @@ width: 600px;
 .textoyvideo {
 display: flex;
 align-items: center;
-justify-content: space-around;
+/* justify-content: space-around; */
 }
 
 @media screen and (max-width: 576px){
@@ -35,3 +35,31 @@ justify-content: space-around;
     }
     
 }
+.textoimagencooperativa{
+display: flex;
+align-items: center;
+
+
+}
+
+.textocooperativa{
+width: 600px;
+
+}
+
+.brochasycorcheas{
+    display: flex;
+    align-items: center;
+    
+    
+    }
+
+    .textobrochasycorcheas{
+
+        width: 600px;
+
+
+    }
+    .precentacion{
+        width: 600px;
+    }
