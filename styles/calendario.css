@@ -69,12 +69,35 @@ h2 {
     padding: 0;
 }
 
+
+@media screen and (max-width: 992px){
+    .mesbtn img{
+        background-color: white;
+        border: none;
+        width: 4em;
+    }
+    .calendario{
+       width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mesbtn img{
+        background-color: white;
+        border: none;
+        width: 4em;
+    }
+}
 @media screen and (max-width: 576px){
     .contenedorCalendario{
         flex-direction: column;
+        align-items: center;
     }
     .botonera{
         width: 100%;
+    }
+    .mesbtn img {
+        width: 2em;
     }
     .calendario{
         width: 100%;
