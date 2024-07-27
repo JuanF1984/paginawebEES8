@@ -1,4 +1,6 @@
 .container_contacto {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,9 +8,24 @@
 
 .tarjeta_contacto {
     width: 25%;
+    background-color: #42bfdd;
+    border-radius: 1.8em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.tarjeta_contacto p {
+    padding: 1em;
 }
 
 #map {
     height: 600px;
     width: 65%;
+    margin: 2em;
+    border-radius: 1.8em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
 }

@@ -1,5 +1,5 @@
 // Inicializa el mapa y establece la vista centrada en la Escuela Secundaria Nº 8
-var map = L.map('map').setView([-34.4514, -59.4561], 15);
+var map = L.map('map').setView([-34.4514, -59.4561], 14);
 
 // Agrega la capa de mapa de OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -84,20 +84,15 @@ h2{
     background-color: rgba(190, 210, 223, 0.5);
 }
 
-.perfilArt p {
-    padding: 0.5em 1em 2em 1em;
-}
+/* .perfilArt p {
+    padding: 1em;
+} */
 
-.perfilTextHidden {
-    display: none;
+.textoEscondido {
     margin-bottom: .5em;
 }
 
-.perfilTextVisible {
-    display: block;
-}
-
-#perfilMasMenos {
+#leerMasMenos {
     position: absolute;
     bottom: 0.5em;
     right: 1em;

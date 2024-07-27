@@ -1,15 +1,11 @@
-const perfilMasMenos = document.getElementById('perfilMasMenos');
-const perfilTextHidden = document.querySelector('.perfilTextHidden');
-const perfilText = document.querySelector('.perfilText');
-
-perfilMasMenos.addEventListener('click', () => {
-    if (perfilMasMenos.textContent === 'Leer Más') {
-        perfilTextHidden.classList.add('perfilTextVisible')
-        perfilText.classList.add('perfilTextHidden')
-        perfilMasMenos.textContent = 'Leer Menos'
-    }else{
-        perfilTextHidden.classList.remove('perfilTextVisible')
-        perfilText.classList.remove('perfilTextHidden')
-        perfilMasMenos.textContent = 'Leer Más'
+const botonMasMenos = document.getElementById('leerMasMenos');
+const textHidden = document.querySelector('.textoEscondido');
+botonMasMenos.addEventListener('click', () => {
+    if (botonMasMenos.textContent === 'Leer Más') {
+        textHidden.style.display = 'block';
+        botonMasMenos.textContent = 'Leer Menos';
+    } else {
+        textHidden.style.display = 'none';
+        botonMasMenos.textContent = 'Leer Más';
     }
-})
+});

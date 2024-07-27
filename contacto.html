@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/contacto.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                 </li>
                 <li>
                     <a href="horarios.html">Horarios</a>
-                    
+
                 </li>
                 <li><a href="#">Comunidad</a>
                     <ul class="submenu">
@@ -39,26 +40,43 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="calendario.html">Calendario</a>
                 </li>
                 <li>
-                    <a href="calendario.html">Calendario</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="container_contacto">
-        <div class="tarjeta_contacto">
-            <h3>Datos de contacto</h3>
-            <p>Dirección</p>
-            <p>Contacto de telefono</p>
-            <p>Redes</p>
+    <main>
+        <div class="container">
+            <div class="container_contacto">
+                <div class="tarjeta_contacto">
+                    <h3>Datos de contacto</h3>
+                    <p>Dirección: Malvinas Argentinas y Guevara</p>
+                    <p>Contacto de telefono: (02325) 15-XXXXXX</p>
+                </div>
+                <div id="map"></div>
+            </div>
         </div>
-        <div id="map">
-
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column location">
+                <p>San Andres de Giles, Buenos Aires, Argentina</p>
+            </div>
+            <div class="footer-column social-icons">
+                <ul>
+                    <li><a href="https://www.instagram.com/escuelasecundaria8sag/?igsh=a3ZicXYyM2hwMjFo" target="_blank"><img src="assets/img/Index/icons8-instagram-50.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/share/SnJeeWvfnrX9LnzA/?mibextid=qi2Omg" target="_blank"><img src="assets/img/Index/icons8-facebook-50.png" alt="Facebook"></a></li>
+                    <li><img src="assets/img/Index/icons8-twitter-50.png" alt="Twitter"></li>
+                </ul>
+            </div>
+            <div class="footer-column brand">
+                <p>Desarrollado por Sur-Digital</p>
+            </div>
         </div>
-    </div>
-
+    </footer>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="scripts/mapa.js"></script>
 </body>

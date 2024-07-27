@@ -6,7 +6,7 @@
     display: none;
 }
 
-#loaderContainer{
+#loaderContainer {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,13 +25,20 @@
     animation: spin 2s linear infinite;
     position: absolute;
 }
-.loaderText{
+
+.loaderText {
     font-size: 2em;
     position: absolute;
 }
+
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* Estilos generales */
@@ -43,6 +50,15 @@
     text-decoration: none;
 }
 
+body{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+main{
+    margin-bottom: 50px;
+}
 
 header {
     width: 100%;
@@ -78,41 +94,75 @@ nav {
     background-color: rgb(204, 60, 38);
 }
 
+/* Body */
+/* Clases usadas para ocultar y mostrar párrafos */
+.textoEscondido {
+    display: none;
+}
+
+.textoVisible {
+    display: block;
+    padding: 1.8em;
+}
 
 
 /* ///////////////////////////////FOOTER////////////////////// */
 
 footer {
-    height: 6em;
+    width: 100%;
     background-color: rgb(204, 60, 38);
-    margin-top: 3em;
+    padding: 20px 0;
+    margin: 1em 0;
+    position: absolute;
+    bottom: -25px;
+}
+
+.footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.socialIcons ul {
+.footer-column {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.location {
+    text-align: left;
+}
+
+.brand {
+    text-align: right;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
 }
 
-.socialIcons img {
-    width: 5em;
-    padding: 1em;
+.social-icons li {
+    margin: 0 10px;
+    transition: all 300ms ease-in-out;
 }
 
-.socialIcons li {
-    list-style: none;
-    vertical-align: bottom;
-    margin-right: 1em;
-    margin-left: 1em;
+.social-icons img {
+    width: 30px;
+    height: auto;
 }
 
-.socialIcons li:hover {
+.social-icons li:hover {
     transform: scale(1.2);
 }
+
+/* Diseño responsivo */
 
 @media (max-width: 576px) {
     footer {
