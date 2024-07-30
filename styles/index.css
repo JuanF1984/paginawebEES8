@@ -185,3 +185,118 @@
     background-color:#9cc969;;
     font-size: 1.2em;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* .misiontxt{
+        flex-direction: column;
+    } */
+    body{
+        font-size: 10px;
+    }
+    .miscontainer{
+        flex-direction: column;
+    }
+
+    .mision{
+        order:-1;
+    }
+    .mision h2{
+        font-size: 2.2em;
+    }
+    .mision p{
+        font-size: 1.5em;
+    }
+    .mision img{
+        width: 17.5em;
+        height: 25em;
+    }
+    .ux ul{
+        display: block;
+    }
+    .ux ul li{
+        flex-direction: row;
+        margin: 1em;
+        font-size: 1.3em;
+    }
+    .ux img{
+        margin: 1em;
+    }
+    p{
+        font-size: 1.25em;
+    }
+    .mision{
+        width: 100%;
+    }
+    .misHis{
+        width: 100%;
+    }
+    .misHis{
+        font-size: 1.2em;
+    }
+    .mision p {
+        background-color:  rgb(160, 172, 231); 
+        border-radius: 1em;
+    }
+    .objLi {
+        background-color:  rgb(160, 172, 231); 
+        border-radius: 1em;
+        padding-left: 2.5em;
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    /* .misiontxt{
+        flex-direction: column;
+    } */
+    body{
+        font-size: 8px;
+    }
+    .miscontainer{
+        flex-direction: column;
+    }
+
+    .mision{
+        order:-1;
+    }
+    .ux ul{
+        display: block;
+    }
+    .ux ul li{
+        flex-direction: row;
+        margin-top: 4em;
+    }
+    .ux p{
+        font-size: 1.1em;
+    }
+    p{
+        /* font-size: 1.25em; */
+    }
+    .mision{
+        width: 100%;
+    }
+    .mision p {
+        background-color:  rgb(160, 172, 231); 
+        border-radius: 1em;
+        font-size: 1.2em;
+    }
+    .misHis{
+        width: 100%;
+    }
+    .misHis p{
+        font-size: 1em;
+    }
+    .mision p {
+        background-color:  rgb(160, 172, 231); 
+        border-radius: 1em;
+    }
+    .objLi {
+        background-color:  rgb(160, 172, 231); 
+        border-radius: 1em;
+        padding-left: 2.5em;
+        font-size: 1.2em;
+    }
+}
+
