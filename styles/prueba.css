@@ -1,12 +1,3 @@
-@media screen and (max-width: 576px){
-    .menuPrincipal{
-        display: none;
-    }
-    .menuSecundario{
-        visibility: visible;
-    }
-    
-}
 #menu-hamburguesa{
     display: none;
 }
@@ -37,15 +28,16 @@ nav{
     }
     .menuPrincipal{
         display: none;
-        background-color: #f1f1f1;
+        background-color: rgb(204, 60, 38);
         position: absolute;
-        width: 100%;
+        left: 8%;
+        width: 75%;
     }
     .menuPrincipal li{
         display: block;
         padding: 10px;
-        border-bottom: 1px solid black;
-        background-color: rgb(193, 158, 68);
+        border: 1px solid black;
+        background-color: rgb(204, 60, 38);
     }
     .menu-hamburguesa:checked~.menuPrincipal{
         display: block;
