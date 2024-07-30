@@ -57,6 +57,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .socialIcons ul {
@@ -80,4 +81,35 @@ footer {
 
 .socialIcons li:hover {
     transform: scale(1.2);
+}
+
+/* ///////////////RESPONSIVE\\\\\\\\\\\\\\\\ */
+@media (max-width: 992px){
+    body{
+        font-size: 12px;
+    }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 10px;
+    }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 8px;
+    }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
+    }
 }
