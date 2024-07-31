@@ -121,6 +121,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -162,20 +163,33 @@ footer {
     transform: scale(1.2);
 }
 
-/* Diseño responsivo */
-
-@media (max-width: 576px) {
-    footer {
-        height: 3.5em;
-        background-color: rgb(204, 60, 38);
-        margin-top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+/* ///////////////RESPONSIVE\\\\\\\\\\\\\\\\ */
+@media (max-width: 992px){
+    body{
+        font-size: 12px;
     }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
+    }
+}
 
-    .socialIcons img {
-        width: 3em;
-        padding: 0.5em;
+@media (max-width: 768px){
+    body{
+        font-size: 10px;
+    }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 8px;
+    }
+    .perfil{
+        margin-left: 5%;
+        width: 90%;
     }
 }

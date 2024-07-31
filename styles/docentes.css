@@ -98,3 +98,21 @@ h2{
     right: 1em;
     font-size: 1em;
 }
+
+@media (max-width: 992px){
+    .photoIndividual p{
+        visibility: visible;
+    }
+}
+
+@media (max-width: 768px){
+    .photoIndividual p{
+        visibility: visible;
+    }
+}
+
+@media (max-width: 576px){
+    .photoIndividual p{
+        visibility: visible;
+    }
+}
