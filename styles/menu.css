@@ -82,42 +82,48 @@
     color: black;
 }
 
-.menuPrincipal li:hover ul{
+.menuPrincipal li:hover ul {
     visibility: visible;
 }
 
 
 /* //////MENU MAX-WIDTH: 576PX\\\\\\ */
-nav{
+nav {
     display: flex;
     align-items: center;
 }
-#menu-hamburguesa{
+
+#menu-hamburguesa {
     display: none;
 }
-.menu-hamburguesa{
+
+.menu-hamburguesa {
     display: none;
 }
-.menu-btn{
+
+.menu-btn {
     display: none;
     padding: 10px;
 }
-.menu-btn span{
+
+.menu-btn span {
     display: block;
     width: 25px;
     height: 3px;
     background-color: black;
     margin: 5px 0;
 }
-.menuPrincipal li{
+
+.menuPrincipal li {
     display: inline-block;
 }
 
-@media screen and (max-width: 768px){
-    .menu-btn{
+@media screen and (max-width: 768px) {
+    .menu-btn {
         display: block;
     }
-    .menuPrincipal{
+
+    .menuPrincipal {
         display: none;
         /* background-color: rgb(204, 60, 38); */
         position: absolute;
@@ -126,7 +132,7 @@ nav{
         top: 5.3em;
     }
 
-    .menuPrincipal::after{
+    .menuPrincipal::after {
         content: '';
         width: 0;
         height: 0;
@@ -137,27 +143,34 @@ nav{
         top: -11px;
         left: 8px;
     }
-    .menuPrincipal li:nth-child(1){
+
+    .menuPrincipal>li:nth-child(1) {
         border-top: 2px solid rgb(204, 60, 38);
     }
 
-    .menuPrincipal li{
+    .menuPrincipal>li {
+        background-color: rgb(204, 60, 38);
+    }
+
+    .menuPrincipal li {
         display: block;
         padding: 10px;
         border-bottom: 1px solid black;
-        background-color: rgb(204, 60, 38);
+
     }
-    .menu-hamburguesa:checked~.menuPrincipal{
+
+    .menu-hamburguesa:checked~.menuPrincipal {
         display: block;
     }
 
 }
 
-@media screen and (max-width: 576px){
-    .menu-btn{
+@media screen and (max-width: 576px) {
+    .menu-btn {
         display: block;
     }
-    .menuPrincipal{
+
+    .menuPrincipal {
         display: none;
         /* background-color: rgb(204, 60, 38); */
         position: absolute;
@@ -166,7 +179,7 @@ nav{
         top: 5.3em;
     }
 
-    .menuPrincipal::after{
+    .menuPrincipal::after {
         content: '';
         width: 0;
         height: 0;
@@ -177,19 +190,41 @@ nav{
         top: -11px;
         left: 8px;
     }
-    .menuPrincipal li:nth-child(1){
+
+    .menuPrincipal>li:nth-child(1) {
         border-top: 2px solid rgb(204, 60, 38);
     }
 
-    .menuPrincipal li{
+    .menuPrincipal>li {
+        background-color: rgb(204, 60, 38);
+    }
+
+    .menuPrincipal li {
         display: block;
         padding: 10px;
         border-bottom: 1px solid black;
-        background-color: rgb(204, 60, 38);
+
     }
-    .menu-hamburguesa:checked~.menuPrincipal{
+
+    .menu-hamburguesa:checked~.menuPrincipal {
         display: block;
     }
 
-}
+    .submenu {
+        top: 2em;
+        left: 10em;
+    }
 
+    .submenu::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-right: 12px solid white;
+        border-top: 12px solid white;
+        border-bottom: 12px solid transparent;
+        position: absolute;
+        top: 0;
+        left: -8px;
+    }
+
+}
