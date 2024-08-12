@@ -29,3 +29,19 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 576px) {
+    .container_contacto{
+        flex-direction: column;
+        margin: 1.5em;
+    }
+
+    #map{
+        order: -1;
+        width: 100%;
+    }
+
+    .tarjeta_contacto{
+        width: 100%;
+    }
+}

@@ -192,4 +192,9 @@ footer {
         margin-left: 5%;
         width: 90%;
     }
+
+    .logoContainer{
+        width: 100%;
+        justify-content: center;
+    }
 }
