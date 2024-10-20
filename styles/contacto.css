@@ -23,6 +23,7 @@
     width: 65%;
     margin: 2em;
     border-radius: 1.8em;
+    z-index: 1;
 }
 
 .container{

@@ -213,6 +213,7 @@ nav {
     .submenu {
         top: 2em;
         left: 10em;
+        z-index: 1000;
     }
 
     .submenu::after {
