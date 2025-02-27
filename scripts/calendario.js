@@ -20,54 +20,20 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
     events: [
         {
             title: 'Feriado',
-            start: '2024-07-09',
-            description: 'Declaración de la Independencia en 1816'
+            start: '2025-03-03',
+            end: '2025-03-05', 
+            description: 'Carnaval'
         },
         {
-            title: 'Feriado',
-            start: '2024-08-17',
-            description: 'Paso a la inmortalidad del Gral. Jose de San Martin'
+            title: 'Inicio 1ro',
+            start: '2025-03-05',
+            description: 'Inicio de clases para primer año'
         },
         {
-            title: 'Feriado puente',
-            start: '2024-10-11',
-            description: 'Feriado con fines turisticos'
+            title: 'Inicio Clases',
+            start: '2025-03-10',
+            description: 'Inicio de clases para el resto de los cursos'
         },
-        {
-            title: 'Fecha Patria',
-            start: '2024-10-12',
-            description: 'Dia del respeto a la Diversidad Cultural'
-        },
-        {
-            title: 'Feriado puente',
-            start: '2024-11-18',
-            description: 'Feriado con fines turisticos'
-        },
-        {
-            title: 'Fecha Patria',
-            start: '2024-11-20',
-            description: 'Dia de la Soberania Nacional'
-        },
-        {
-            title: 'Fecha Patria',
-            start: '2024-12-8',
-            description: 'Dia de la Virgen'
-        },
-        {
-            title: 'Finalizacion de clases',
-            start: '2024-12-20',
-            description: 'Finalizacion de clases'
-        },
-        {
-            title: 'Navidad',
-            start: '2024-12-25',
-            description: 'Conmemoracion del nacimiento del niño Jesus'
-        },
-        {
-            title: 'Fin del ciclo lectivo',
-            start: '2024-12-30',
-            description: 'Fin del ciclo lectivo'
-        }
     
     ],
     eventDidMount: function (info) {

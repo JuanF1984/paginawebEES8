@@ -12,6 +12,7 @@
     display: flex;
     box-shadow: -1em 1em 0.5em;
     border-radius: 30px;
+    flex-direction: column;
 }
 
 .textoimagencooperativa {
@@ -67,6 +68,7 @@ main {
 
 iframe {
     border-radius: 10px;
+    min-height: 80dvh;
     width: 100%;
     margin: 1em;
 }

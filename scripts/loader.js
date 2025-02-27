@@ -1,10 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     let loader = document.getElementById("loaderContainer");
-//     let content = document.getElementById("bodyContainer");
-//     loader.style.display = "none";
-//     content.style.display = "block";
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
     let preloader = document.getElementById("loaderContainer");
     let content = document.getElementById("bodyContainer");
