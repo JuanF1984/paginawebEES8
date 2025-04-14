@@ -34,6 +34,28 @@ const calendar = new FullCalendar.Calendar(calendarEl, {
             start: '2025-03-10',
             description: 'Inicio de clases para el resto de los cursos'
         },
+        {
+            title: 'Feriado',
+            start: '2025-04-02',
+            description: 'Día del Veterano y de los Caídos en la Guerra de Malvinas'
+        },
+        {
+            title: 'Feriado',
+            start: '2025-04-17',
+            end: '2025-04-19',
+            description: 'Jueves y Viernes Santo'
+        },
+        {
+            title: 'Feriado',
+            start: '2025-05-01',
+            description: 'Día de las trabajadoras y los trabajadores'
+        },
+        {
+            title: 'Feriado',
+            start: '2025-05-02',
+            description: 'Día no laborable con fines turisticos'
+        },
+
     
     ],
     eventDidMount: function (info) {

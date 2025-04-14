@@ -1,17 +1,18 @@
 const punto = document.querySelectorAll('.punto')
 let imagenes = {
     0:{ 
-        "src":"assets/img/img1.jpg",
-        "title":"Imagen del logo de la EES 8",
-        "alt":"Imagen del logo de la EES 8"},
+        "src":"assets/img/escnueva/05.png",
+        "title":"Imagen del frente del colegio",
+        "alt":"Imagen del frente del colegio"},
     1:{
-        "src":"assets/img/img2.jpg",
-        "title": "Estudiantes tocando instrumentos",
-        "alt": "Estudiantes tocando instrumentos"},
+        "src":"assets/img//escnueva/01.png",
+        "title": "Estudiantes y docente en clase de prácticas de lenguaje",
+        "alt": "Estudiantes y docente en clase de prácticas de lenguaje"},
     2:{
-        "src":"assets/img/img3.jpg",
-        "title": "Estudiantes leyendo con docente",
-        "alt": "Estudiantes leyendo con docente"}
+        "src":"assets/img/escnueva/02.png",
+        "title": "Estudiantes en clase de prácticas de historia",
+        "alt": "Estudiantes en clase de prácticas de historia"},
+       
     }
     
 let intervalo = null;
