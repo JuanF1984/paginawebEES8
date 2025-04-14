@@ -1,15 +1,15 @@
 const punto = document.querySelectorAll('.punto')
 let imagenes = {
     0:{ 
-        "src":"assets/img/escnueva/05.png",
+        "src":"assets/img/escnueva/05.webp",
         "title":"Imagen del frente del colegio",
         "alt":"Imagen del frente del colegio"},
     1:{
-        "src":"assets/img//escnueva/01.png",
+        "src":"assets/img//escnueva/01.webp",
         "title": "Estudiantes y docente en clase de prácticas de lenguaje",
         "alt": "Estudiantes y docente en clase de prácticas de lenguaje"},
     2:{
-        "src":"assets/img/escnueva/02.png",
+        "src":"assets/img/escnueva/02.webp",
         "title": "Estudiantes en clase de prácticas de historia",
         "alt": "Estudiantes en clase de prácticas de historia"},
        
